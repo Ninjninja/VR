@@ -27,8 +27,8 @@ fB = []
 
 # path1 = '/home/niranjan/Projects/datasets/Elie_room_data/testA/'
 # path2 = '/home/niranjan/Projects/datasets/Elie_room_data/testB/'
-# os.mkdir(path1)
-# os.mkdir(path2)
+os.mkdir(path1)
+os.mkdir(path2)
 for (dirpath, dirnames, filenames) in os.walk(pathA):
     fA.extend(filenames)
 for (dirpath, dirnames, filenames) in os.walk(pathB):
