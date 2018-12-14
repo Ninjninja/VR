@@ -14,10 +14,10 @@ parser.add_argument("-f", "--folder", dest="path", help="Link to data folder")
 args = parser.parse_args()
 # myFile = args.myFile
 path = args.path
-pathA = os.path.join(path,'train_A')
-pathB = os.path.join(path,'train_B')
-path1 = os.path.join(path,'test_A')
-path2 = os.path.join(path,'test_B')
+pathA = os.path.join(path,'train_A/')
+pathB = os.path.join(path,'train_B/')
+path1 = os.path.join(path,'test_A/')
+path2 = os.path.join(path,'test_B/')
 
 fA = []
 fB = []
